@@ -11,6 +11,7 @@
  */
 
  @import url("../blocks/custom/rewards_banner.css");
+ @import url("../blocks/custom/rewards_description.css");
 
 :root {
   /* colors */

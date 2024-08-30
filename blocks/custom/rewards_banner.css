@@ -51,6 +51,13 @@
 .rewards-banner > div:last-child > div:last-child a {
     background-color: #006ac3;
     border-radius: 0;
+    
+}
+
+.rewards-banner > div:last-child > div:last-child a:hover {
+    background-color: #06518f;
+
+    
 }
 
 .rewards-banner > div:last-child > div:last-child p:nth-of-type(-n+3)::before {
