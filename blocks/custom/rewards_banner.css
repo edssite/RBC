@@ -53,7 +53,7 @@
     border-radius: 0;
 }
 
-.rewards-banner > div:last-child > div:last-child p::before {
+.rewards-banner > div:last-child > div:last-child p:nth-of-type(-n+3)::before {
     content: ""; /* Empty content */
     display: inline-block; /* Makes the pseudo-element behave like an inline element */
     width: 15px; /* Width of the icon */
