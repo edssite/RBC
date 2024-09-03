@@ -10,6 +10,9 @@
  * governing permissions and limitations under the License.
  */
 
+ @import url("../blocks/custom/rewards_banner.css");
+ @import url("../blocks/custom/rewards_description.css");
+
 :root {
   /* colors */
   --background-color: white;
