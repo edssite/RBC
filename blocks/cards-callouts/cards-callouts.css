@@ -18,16 +18,15 @@
     background: var(--Component-Backgrounds-component-bg-3, #E1EBEF);
     border-radius: var(--Vertical-Spacing-Spacing-xs, 8px);
     text-align: left;
+    display: flex;
     flex-direction: column;
     gap: 16px;
-    display: flex;
     padding: 32px !important;
     margin: 0 15px;
-    flex-direction: column;
     align-items: flex-start;
     align-self: stretch;
     position: relative;
-    padding-bottom: 80px !important; /* Increase bottom padding to accommodate the button */
+    padding-bottom: 80px !important;
 }
 
 /* Remove left margin from the first card */
@@ -52,20 +51,19 @@ object-fit: contain;
 /* Heading styles */
 .cards-callouts h3 {
     color: #000;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: "rbc-medium";
+    font-family: "rbc-regular";
     font-size: 28px !important;
     font-style: normal;
     font-weight: 500 !important;
     line-height: 36px !important;
-    margin-top: 16px;
+    margin-top: 0px;
 }
 
 /* Paragraph styles */
 .cards-callouts p {
+    flex-grow: 1; /* Add this line to make the paragraph take up available space */
     font-size: 16px;
     color: #000;
-    font-feature-settings: 'clig' off, 'liga' off;
     font-family: "roboto";
     font-size: 16px;
     font-style: normal;
@@ -89,7 +87,6 @@ object-fit: contain;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-feature-settings: 'clig' off, 'liga' off;
     font-family: "roboto";
     font-size: 14px;
     font-style: normal;
@@ -115,13 +112,25 @@ object-fit: contain;
 .default-content-wrapper h2 {
     color: #252525;
     text-align: center;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: "rbc-medium";
+    font-family: "rbc-regular";
     font-size: 36px;
     font-style: normal;
     font-weight: 500;
     line-height: 44px;
     margin-bottom: 15px;
+}
+
+/* Image container styles */
+.cards-callouts > div > div:first-child {
+    height: 80px;
+    display: flex;
+}
+
+/* Content container styles */
+.cards-callouts > div > div:last-child {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Add this line to make the content container fill the card */
 }
 
 /* Button container styles */
@@ -130,4 +139,5 @@ object-fit: contain;
     bottom: 32px;
     left: 32px;
     right: 32px;
+    margin-top: auto; /* Add this line to push the button to the bottom */
 }
