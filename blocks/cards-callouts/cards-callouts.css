@@ -1,9 +1,8 @@
 /* Wrapper styles */
 .cards-callouts-wrapper {
-    max-width: 1200PX;
-    margin-left: auto;
-    margin-right: auto;
-    /* padding: 40px 20px; */
+    max-width: unset;
+    margin: 0 auto;
+    padding: 40px 20px;
 }
 
 /* Main container styles */
