@@ -12,6 +12,8 @@
 
  @import url("../blocks/custom/rewards_banner.css");
  @import url("../blocks/custom/rewards_description.css");
+ @import url("../blocks/custom/rewards_credit_cards.css");
+ @import url("../blocks/custom/rewards_cards.css");
 
 :root {
   /* colors */

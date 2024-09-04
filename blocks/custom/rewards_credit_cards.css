@@ -1,0 +1,174 @@
+.rewards-credit-cards-container {
+    background-color: #eeeeee;
+}
+
+.rewards-credit-cards > div > div #rbcs-top-choices-for-rewards-credit-cards {
+    font-size: 2.6rem;
+    font-weight: 500;
+    font-family: rbc-regular;
+    font-style: normal;
+}
+
+.rewards-credit-cards > div:first-child {
+    text-align: center;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.rewards-credit-cards > div {
+    display: flex;
+}
+
+.rewards-credit-cards > div > div h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: rbc-regular;
+    font-style: normal;
+}
+
+.rewards-credit-cards > div > div:first-child {
+    margin-top: 2%;
+}
+
+.rewards-credit-cards > div > div {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.rewards-credit-cards > div:nth-child(2) > div {
+    margin-top: 2%;
+}
+
+.rewards-credit-cards > div:nth-last-child(-n + 4) > div:nth-of-type(2) {
+    width: 534px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.rewards-credit-cards > div:nth-last-child(-n + 4) > div:nth-of-type(3) {
+    padding-top: 10%;
+    width: 252px;
+}
+
+.rewards-credit-cards > div:nth-last-child(-n + 4) > div:nth-of-type(3) p {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.rewards-credit-cards
+    > div:nth-last-child(-n + 4)
+    > div:nth-of-type(3)
+    p
+    strong {
+    color: black;
+    padding-left: 0px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 1rem;
+    width: 252px;
+}
+.rewards-credit-cards > div:nth-last-child(-n + 4) > div:nth-of-type(3) p em {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 1rem;
+    width: 252px;
+}
+
+.rewards-credit-cards
+    > div:nth-last-child(-n + 4)
+    > div:nth-of-type(3)
+    a.button {
+    background-color: #006ac3;
+    border-radius: 0;
+    width: 130px;
+    height: 42px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 40%;
+    margin-left: 40%;
+}
+
+.rewards-credit-cards
+    > div:nth-last-child(-n + 4)
+    > div:nth-of-type(2)
+    a.button {
+    background-color: transparent;
+    color: #2071c5;
+    padding-left: 0px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.rewards-credit-cards
+    > div:nth-last-child(-n + 4)
+    > div:nth-of-type(2)
+    a.button {
+    background-color: transparent;
+}
+
+.rewards-credit-cards
+    > div:nth-last-child(-n + 4)
+    > div:nth-of-type(2)
+    p:not(:first-of-type) {
+    color: #727272;
+}
+
+.rewards-credit-cards
+    > div:nth-last-child(-n + 4)
+    > div:nth-of-type(2)
+    p:not(:first-of-type)
+    strong {
+    color: black;
+}
+
+.rewards-credit-cards
+    > div:nth-last-child(-n + 4)
+    > div:nth-of-type(2)
+    p:not(:first-of-type):not(:last-of-type)::before {
+    content: ""; /* Empty content */
+    display: inline-block; /* Makes the pseudo-element behave like an inline element */
+    width: 15px; /* Width of the icon */
+    height: 15px; /* Height of the icon */
+    background-image: url("../../icons/grey_checkmark.png"); /* Path to your PDF icon */
+    background-size: contain; /* Scale the background image to fit the pseudo-element */
+    padding-right: 5px;
+}
+
+.rewards-credit-cards
+    > div:nth-last-child(-n + 4)
+    > div:nth-of-type(2)
+    p:first-of-type {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    background-color: #ffc72c;
+    width: auto; /* Adjust width based on content */
+    max-width: fit-content; /* Ensure the width adjusts to the text length */
+    padding-left: 10px;
+}
+
+
+
+.rewards-credit-cards > div:nth-last-of-type(-n + 4) {
+    border-bottom: 1px solid #c4c8cc; /* Example border style */
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+
+.rewards-credit-cards > div:last-child {
+    text-align: center;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.rewards-credit-cards > div:last-child #view-all-rewards-cards a {
+    color: #006ac3;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+}
