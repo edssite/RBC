@@ -1,0 +1,140 @@
+/* Wrapper styles */
+.cards-callouts-wrapper {
+    max-width: unset;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Main container styles */
+.cards-callouts {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+/* Individual card styles */
+.cards-callouts > div {
+    flex: 1;
+    background: var(--Component-Backgrounds-component-bg-3, #E1EBEF);
+    border-radius: var(--Vertical-Spacing-Spacing-xs, 8px);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px !important;
+    margin: 0 15px;
+    align-items: flex-start;
+    align-self: stretch;
+    position: relative;
+    padding-bottom: 80px !important;
+}
+
+/* Remove left margin from the first card */
+.cards-callouts > div:first-child {
+    margin-left: 0;
+    background: var(--Component-Backgrounds-component-bg-2, #EDF7FC);
+}
+
+/* Remove right margin from the last card */
+.cards-callouts > div:last-child {
+    margin-right: 0;
+    background: var(--Backgrounds-background-3, #F3F4F5);
+}
+
+/* Image size override for cards-callouts */
+.cards-callouts-wrapper .cards-callouts img {
+width: 60px !important;
+height: 60px !important;
+object-fit: contain;
+}
+
+/* Heading styles */
+.cards-callouts h3 {
+    color: #000;
+    font-family: "rbc-regular";
+    font-size: 28px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: 36px !important;
+    margin-top: 16px;
+}
+
+/* Paragraph styles */
+.cards-callouts p {
+    flex-grow: 1; 
+    font-size: 16px;
+    color: #000;
+    font-family: "roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+/* Remove any other button styles that might be interfering */
+.cards-callouts .button-container .button {
+    all: unset;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: #006AC3;
+    border-radius: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: 2px solid var(--Interaction-link, #006AC3);
+    background: var(--Backgrounds-background-1, #FFF);
+    padding: 14px 20px;
+    text-align: center;
+    font-family: "roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.cards-callouts .button-container .button:hover {
+    background-color: var(--Backgrounds-background-1, #FFF);
+    color: #006AC3;
+    text-decoration: underline;
+}
+
+/* Icon container styles */
+.cards-callouts > div > {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* How to Apply title styles */
+.default-content-wrapper h2 {
+    color: #252525;
+    text-align: center;
+    font-family: "rbc-regular";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    margin-bottom: 15px;
+}
+
+/* Image container styles */
+.cards-callouts > div > div:first-child {
+    height: 80px;
+    display: flex;
+}
+
+/* Content container styles */
+.cards-callouts > div > div:last-child {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Add this line to make the content container fill the card */
+}
+
+/* Button container styles */
+.cards-callouts .button-container {
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+    right: 32px;
+    margin-top: auto; /* Add this line to push the button to the bottom */
+}
