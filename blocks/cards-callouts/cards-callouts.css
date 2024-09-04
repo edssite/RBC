@@ -95,8 +95,9 @@ object-fit: contain;
     line-height: 20px;
 }
 .cards-callouts .button-container .button:hover {
-    background-color: #0051ba;
-    color: white;
+    background-color: var(--Backgrounds-background-1, #FFF);
+    color: #006AC3;
+    text-decoration: underline;
 }
 
 /* Icon container styles */
@@ -120,4 +121,3 @@ object-fit: contain;
     line-height: 44px;
     margin-bottom: 15px;
 }
-
