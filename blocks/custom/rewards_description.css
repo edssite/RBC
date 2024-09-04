@@ -1,0 +1,46 @@
+.rewards-description > div > div #how-do-i-choose-the-best-rewards-credit-card {
+    color: black;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-family: rbc-regular;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.rewards-description > div > div {
+    text-align: center;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.rewards-description-wrapper {
+    text-align: center;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;
+}
+
+.rewards-description > div > div p:first-of-type {
+    font-size: 1rem;
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: normal;
+    color: #727272;
+    text-align: left !important;
+
+    width: 75%;
+    margin: 0 auto; /* Horizontally center the paragraph */
+}
+
+.rewards-description > div > div a.button {
+    background-color: transparent;
+    color: #2071C5;
+   
+}
+
+
+.rewards-description > div > div a:hover.button {
+    background-color: transparent;
+    text-decoration: underline; /* Adds underline to text on hover */
+
+   
+}

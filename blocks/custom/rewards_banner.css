@@ -1,0 +1,70 @@
+.rewards-banner > div > div #rewards-credit-cards {
+    color: #006ac3;
+    font-size: 3rem;
+    font-style: normal;
+    font-family: rbc-regular;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.rewards-banner > div {
+    display: flex;
+}
+
+.rewards-banner > div:last-child > div:last-child {
+    padding-left: 60px;
+    width: 858px;
+    height: 405px;
+}
+
+.rewards-banner > div > div img {
+    width: 450px;
+    height: 405px;
+}
+
+.rewards-banner > div > div h2 {
+    font-size: 2.6rem;
+    font-family: rbc-regular;
+    font-weight: 500;
+}
+
+.rewards-banner > div > div p {
+    font-size: 1rem;
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: normal;
+    color: #727272;
+}
+
+.rewards-banner > div > div h4 {
+    font-size: 1.2rem;
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: normal;
+    color: #727272;
+}
+
+.rewards-banner > div:last-child > div:last-child {
+    border: 1px solid #c4c8cc; /* Example border: 2px wide, solid line, black color */
+}
+
+.rewards-banner > div:last-child > div:last-child a {
+    background-color: #006ac3;
+    border-radius: 0;
+    
+}
+
+.rewards-banner > div:last-child > div:last-child a:hover {
+    background-color: #06518f;
+
+    
+}
+
+.rewards-banner > div:last-child > div:last-child p:nth-of-type(-n+3)::before {
+    content: ""; /* Empty content */
+    display: inline-block; /* Makes the pseudo-element behave like an inline element */
+    width: 15px; /* Width of the icon */
+    height: 15px; /* Height of the icon */
+    background-image: url("../../icons/checkmark.png"); /* Path to your PDF icon */
+    background-size: contain; /* Scale the background image to fit the pseudo-element */
+}
