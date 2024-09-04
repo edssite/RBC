@@ -1,8 +1,9 @@
 /* Wrapper styles */
 .cards-callouts-wrapper {
-    max-width: unset;
-    margin: 0 auto;
-    padding: 40px 20px;
+    max-width: 1200PX;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 40px 20px; */
 }
 
 /* Main container styles */
@@ -56,12 +57,12 @@ object-fit: contain;
     font-style: normal;
     font-weight: 500 !important;
     line-height: 36px !important;
-    margin-top: 0px;
+    margin-top: 16px;
 }
 
 /* Paragraph styles */
 .cards-callouts p {
-    flex-grow: 1; /* Add this line to make the paragraph take up available space */
+    flex-grow: 1; 
     font-size: 16px;
     color: #000;
     font-family: "roboto";
@@ -78,14 +79,11 @@ object-fit: contain;
     display: inline-block;
     text-decoration: none;
     color: #006AC3;
-    border: 2px solid #006AC3;
     border-radius: 0;
     transition: background-color 0.3s ease, color 0.3s ease;
     border: 2px solid var(--Interaction-link, #006AC3);
     background: var(--Backgrounds-background-1, #FFF);
     padding: 14px 20px;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     font-family: "roboto";
     font-size: 14px;
