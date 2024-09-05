@@ -49,7 +49,7 @@
 }
 
 .faq h3.active::after {
-
+    margin-left: 15px;
     transform: rotate(180deg);
 }
 
@@ -64,6 +64,6 @@
 .faq p:hover {
     display: none;
     padding: 10px;
-    background: green;
+
     margin: 0; 
 }
