@@ -1,0 +1,37 @@
+.faq-container{
+    display: flex;
+    
+}
+
+
+.section > div #frequently-asked-questions {
+    text-align: center;
+    font-size: 2.6rem;
+    font-family: rbc-regular;
+    font-weight: 500;
+
+}
+
+
+
+
+
+.faq-wrapper:first-child{
+    margin-right: 0px !important;
+    
+}
+  
+
+.faq-wrapper:nth-of-type(2){
+    margin-left: 0px !important;
+
+    
+}
+
+
+.faq-wrapper > div > div{
+    margin: 0px;
+}
+
+
+

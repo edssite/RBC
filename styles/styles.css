@@ -17,6 +17,7 @@
  @import url("../blocks/custom/travel_banner.css");
  @import url("../blocks/custom/travel_credit_cards.css");
  @import url("../blocks/custom/travel_description.css");
+ @import url("../blocks/custom/faq.css");
 
 :root {
   /* colors */
