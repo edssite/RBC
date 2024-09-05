@@ -14,6 +14,9 @@
  @import url("../blocks/custom/rewards_description.css");
  @import url("../blocks/custom/rewards_credit_cards.css");
  @import url("../blocks/custom/rewards_cards.css");
+ @import url("../blocks/custom/travel_banner.css");
+ @import url("../blocks/custom/travel_credit_cards.css");
+ @import url("../blocks/custom/travel_description.css");
  @import url("../blocks/custom/faq.css");
 
 :root {
@@ -246,6 +249,53 @@ main > .section > div {
 
 main > .section:first-of-type {
   margin-top: 0;
+}
+
+main .section.breadcrumbs {
+  margin-bottom: 0;
+}
+
+main .section.breadcrumbs .default-content-wrapper {
+  max-width: 1200px;
+  padding: 15px 15px 0;
+  margin: 0 auto;
+}
+
+main .section.breadcrumbs .default-content-wrapper p {
+  display: inline;
+  color: #006AC3;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1.8rem;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+}
+
+main .section.breadcrumbs .default-content-wrapper p:last-child {
+  color: #000;
+}
+
+main .section.breadcrumbs .default-content-wrapper p:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+main .section.breadcrumbs .default-content-wrapper p+p::before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+.faq-container {
+  margin: 0 auto 25px !important;
+  max-width: 1200px;
+}
+
+.faq-container .faq-wrapper{
+  margin: 0;
+  flex: 1;
 }
 
 @media (width >= 900px) {
