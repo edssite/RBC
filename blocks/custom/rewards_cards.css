@@ -1,0 +1,50 @@
+.rewards-cards {
+    display: flex;
+}
+
+.rewards-cards > div h3 {
+    font-size: 1.2rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    color: #252525;
+}
+
+.rewards-cards > div p {
+    font-size: 1rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    color: #252525;
+}
+
+.rewards-cards > div a.button {
+    background-color: transparent;
+    color: #2071c5;
+    padding-left: 0px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+
+
+.rewards-cards > div:nth-of-type(1) {
+    background: #edf7fc !important;
+}
+
+.rewards-cards > div:nth-of-type(2) {
+    background: #e1ebee !important;
+}
+
+.rewards-cards > div:nth-of-type(3) {
+    background: #f3f4f5 !important;
+}
+
+.rewards-cards > div {
+    border-radius: 8px;
+    width: 370px;
+    height: 240px;
+    padding: 20px;
+    margin: 20px;
+}
