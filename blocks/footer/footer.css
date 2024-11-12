@@ -1,14 +1,11 @@
 footer {
   background-color: rgb(57, 106, 240);
-  font-size: var(--body-font-size-xs);
+  font-size: 10px;
   z-index: 1;
   color: white;
   position: relative;
+  font-family: rbc-regular;
 }
-
-
-
-
 
 .footer-bottom > div {
   display: flex;
@@ -50,7 +47,7 @@ footer .footer p {
 }
 
 .footer-links h2 {
-  font-size: x-large;
+  font-size: medium;
 }
 
 .footer-links p {
